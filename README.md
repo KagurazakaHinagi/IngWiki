@@ -11,12 +11,10 @@
 
 我们必须控制住这股力量，否则就会被其奴役。
 
-> <span style="color:#00b056;">启蒙军</span> (The Enlightened)
->
+> <span style="color:#00b056;">启蒙军</span> (The Enlightened)  
 > 试图接纳这股力量，坚信这是对人类的恩赐。
 
-> <span style="color:#00adef;">反抗军</span> (The Resistance)
->
+> <span style="color:#00adef;">反抗军</span> (The Resistance)  
 > 奋力抵抗并保护我们人类剩余的资源和财富。
 
 安装 Ingress 来改变世界吧。

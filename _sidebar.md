@@ -9,15 +9,18 @@
   - [连线与控制场](advanced/linkfield.md)
   - [任务](advanced/mission.md)
   - [符文入侵](advanced/glyph.md)
+  - [等级](advanced/level.md)
+  - [成就牌](advanced/badge.md)
   - [氪金](advanced/store.md)
   - [Passcode 兑换](advanced/passcode.md)
-  - [intel 地图](advanced/intelmap.md)
+  - [Intel 地图](advanced/intelmap.md)
 
 - 其他玩法
   - [面基与 Biocard](other/biocard.md)
   - [8po farm](other/ff.md)
-  - [申请 portal](other/portal_opr.md)
-  - [Decode](other/decode.md)
+  - [申请 Mission](other/mission_opr.md)
+  - [申请 Portal](other/portal_opr.md)
+  - [Passcode 解码](other/decode.md)
 
 - 线下活动
   - [Ingress FS](event/ifs.md)

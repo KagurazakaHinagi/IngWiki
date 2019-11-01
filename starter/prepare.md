@@ -32,8 +32,8 @@
 
 !> Google Play/App Store 之外其他平台下载的客户端可能导致封号。
 
-Android: [Google Play 商店](https://play.google.com/store/apps/details?id=com.nianticproject.ingress)
+Android：[Google Play 商店](https://play.google.com/store/apps/details?id=com.nianticproject.ingress)
 
-iPhone: [iOS App Store](https://itunes.apple.com/us/app/ingress/id576505181)
+iPhone：[iOS App Store](https://itunes.apple.com/us/app/ingress/id576505181)
 
 ?> Google Play 以外可信安装来源仅可使用 [APKMirror](https://www.apkmirror.com/apk/niantic-inc/ingress)。

@@ -10,10 +10,12 @@
 人类对这一发现的反应分为两个派系:
 
 > <span style="color:#00b056;">启蒙军（The Enlightened）</span>  
-> 认为 XM 可以扩大人类的创造力并发展我们的思想，落入他人之手，XM 的潜力将会被滥用，仅保留给少数人。<span style="color:#00b056;">「We must not be limited.」</span>
+> 认为 XM 可以扩大人类的创造力并发展我们的思想，落入他人之手，XM 的潜力将会被滥用，仅保留给少数人。  
+<span style="color:#00b056;">We must not be limited.</span>
 
 > <span style="color:#00adef;">反抗军（The Resistance）</span>  
-> 认为 XM 可以控制人类的思想，并且，落入他人之手将会导致奴役和思想控制，我们不能让这种事情发生。<span style="color:#00adef;">「We must resist.」</span>
+> 认为 XM 可以控制人类的思想，并且，落入他人之手将会导致奴役和思想控制，我们不能让这种事情发生。  
+<span style="color:#00adef;">We must resist.</span>
 
 决定权在你手中。
 

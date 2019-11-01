@@ -30,5 +30,4 @@
 - 资源
   - [官方资源](resource/official.md)
   - [实用工具](resource/tool.md)
-  - [telegram频道](resource/telegram.md)
   - [黑话字典](resource/dictionary.md)

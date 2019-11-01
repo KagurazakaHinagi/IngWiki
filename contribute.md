@@ -29,7 +29,7 @@ IngWiki 由 Docsify 搭建，并托管于 Github Pages。
 
 如您满足以上要求，并有兴趣参与本 Wiki 的编辑，欢迎点击页面右上角的   `Edit on Github` 来编辑。
 
-完成后，访问本 repo 并提交 Pull Request，协作者将会协助审核，如无问题，即可合并至本po。
+完成后，访问本 repo 并提交 Pull Request，协作者将会协助审核，如无问题，即可合并至本 repo。
 
 ------
 
@@ -50,8 +50,7 @@ IngWiki 由 Docsify 搭建，并托管于 Github Pages。
   - `event` - "线下活动" 子目录
   - `resource` - "资源" 子目录
 
-
------
+------
 
 ### 编写规范
 

@@ -1,7 +1,6 @@
 - 入坑
   - [规则](starter/rule.md)
   - [前期准备](starter/prepare.md)
-  - [游戏下载](starter/download.md)
   - [第一次上手](starter/beginning.md)
   - [加入社群](starter/community.md)
 

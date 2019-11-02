@@ -21,11 +21,11 @@
 |      Heat Sink      |    HS（对于不同稀有度的一般称为绿、紫、粉HS）         |
 |      Multi-hack     |    MH（对于不同稀有度的一般称为绿、紫、粉MH）         |
 |       Link Amp      |                    LA、祝福                    |
-| SoftBank Ultra Link |              SBUL、SB、傻逼link（无贬义）        |
+| SoftBank Ultra Link |              SBUL、SB、傻逼 link（无贬义）        |
 |  ITO EN Transmuter  |               正立叶（+）/负立叶（-）            |
 |       Capsule       |              桶、蓝桶、紫桶或胶囊                |
 |   Quantum Capsule   |                  红桶、量子桶                   |
-|      Key Locker     |             钥匙桶、钥匙箱、Key桶                |
+|      Key Locker     |             钥匙桶、钥匙箱、Key 桶                |
 |    Portal Fracker   |                      薯条                     |
 |        Beacon       |                 灯、信标、培根（bacon）         |
 |      Portal Key     |                   Key、钥匙                   |
@@ -46,9 +46,9 @@
 
 - **出外勤**：动词，指玩家为配合友军行动而前往其他城市。
 
-- **大新闻**：名词，指建造大型的Control Field、针包，并有战报的活动。
+- **大新闻**：名词，指建造大型的 Control Field、针包，并有战报的活动。
 
-- **点灯**：动词，指部署Beacon的动作。
+- **点灯**：动词，指部署 Beacon 的动作。
 
 - **防线**：名词，用于保护己方行动免受对方射出 Block 干扰的 Link，可认为保护 Link 是防止对方 Block 的 Block。
 
@@ -74,7 +74,7 @@
     
 - **Farm、FF**：动词/名词，即以获取物资为目的的 Hack/Glyph Hack，一般指持续地 Glyph Hack 一个或多个Po，有时称为农，如 “Farm Key” ；或指适合进行 Farm 的一个区域，有时称作农场。
 
-- **飞机**：名词/动词，指使用GPS虚拟定位作弊的玩家或其作弊行为。
+- **飞机**：名词/动词，指使用 GPS 虚拟定位作弊的玩家或其作弊行为。
 
 - **Field Art**：名词，使用 Field、Link 在地图上绘制具有艺术价值的图案/文字的创作行为，简称为 FA。
 
@@ -92,13 +92,13 @@
 
 - **Link Art**：名词，即只有 Link，未建立 Field 的 Field Art。
 
-- **摸爆、摸烧**：动词，指Portal Hack次数达到上限。
+- **摸爆、摸烧**：动词，指 Portal Hack 次数达到上限。
 
 - **n塔**：名词，即 n 级的 Po。
 
 - **拼图、组图**：名词，即按照特定顺序完成后可组成特定图案的系列任务，为目前最主流的任务形式。
 
-- **PoC**：名词，全称Point of Contact，为官方活动的地区联络人。
+- **PoC**：名词，全称 Point of Contact，为官方活动的地区联络人。
 
 - **Po场、Po群**：名词，指 Po 密度大的一个区域。
 
@@ -110,7 +110,7 @@
 
 - **清障**：动词，一般指在大型计划时清除阻碍计划的 Block 的行为。
 
-- **上祝福**：动词，一般是指在某玩家常 Farm 的 Po 安装除 Farm Mod 及防御 Mod 以外的 Mod 的恶搞行为（多为LA，如果是对敌方则包括将 Po 毒成对方颜色）
+- **上祝福**：动词，一般是指在某玩家常 Farm 的 Po 安装除 Farm Mod 及防御 Mod 以外的 Mod 的恶搞行为（多为 LA，如果是对敌方则包括将 Po 毒成对方颜色）
 
 - **授信玩家**：名词/形容词，指被某个社群认为可靠的玩家。
 

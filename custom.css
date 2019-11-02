@@ -1,4 +1,4 @@
-.sidebar-toggle{background: linear-gradient(to right, rgba(0,0,0,.1) 36px, transparent 0);}
+.sidebar-toggle{width: 36px; background: linear-gradient(to right, rgba(0,0,0,.1) 36px, transparent 0);}
 @media (max-width:768px) {
     .sidebar-toggle{padding-top: 10px;}
 }

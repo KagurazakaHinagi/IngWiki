@@ -2,7 +2,7 @@
 
 ##### 贡献者
 
-> 字典序排列，不分先后
+?> ℹ️ 字典序排列，不分先后
 
 - [DWCarrot](https://github.com/DWCarrot)
 - [hycuihz](https://github.com/hycuihz)
@@ -21,10 +21,10 @@ IngWiki 由 Docsify 搭建，并托管于 Github Pages。
 
 ##### 参与要求
 
-- 了解 Markdown、CommonMark 和 Github Flavored Markdown 语法。
-- 了解 Git 的基本用法，能够解决简单的文件冲突。
-- 有较好的文字表达能力和简单英译能力。
-- 是 Ingress 玩家并充分了解 Ingress 的内容。
+- 了解 Markdown、CommonMark 和 Github Flavored Markdown 语法
+- 了解 Git 的基本用法，能够解决简单的文件冲突
+- 有较好的文字表达能力和简单英译能力
+- 是 Ingress 玩家并充分了解 Ingress 的内容
 
 ##### 参与方式
 
@@ -42,6 +42,7 @@ IngWiki 由 Docsify 搭建，并托管于 Github Pages。
 - `_navbar.md` - 导航栏配置，一般情况下请勿更改
 - `_sidebar.md` - 侧边目录配置
 - `sw.js` - 离线模式 "PWA" 配置脚本
+- `custom.css` - 自定义样式表
 - `CNAME` - 域名 CNAME 信息，一般情况下请勿更改
 - 二级目录说明
   - `assets` - 静态资源目录，包括图片，请上传至该目录使用
@@ -55,10 +56,10 @@ IngWiki 由 Docsify 搭建，并托管于 Github Pages。
 
 ### 编写规范
 
-1. Wiki 内的链接应使用相对路径，并注意检查引用路径是否正确。
-2. 文本排版保持简洁、美观。中文和西文、数字之间要有空格。
-3. 编辑或新建页面时，应保持文件结构正确、整洁。
-4. 由于托管在 Github Pages 的特殊性，请不要上传大文件。图片等内容请压缩至合适大小后再上传。
+1. Wiki 内的链接应使用相对路径，并注意检查引用路径是否正确
+2. 文本排版保持简洁、美观。中文和西文、数字之间要有空格
+3. 编辑或新建页面时，应保持文件结构正确、整洁
+4. 由于托管在 Github Pages 的特殊性，请不要上传大文件。图片等内容请压缩至合适大小后再上传
 5. heading 风格方案
 
    - 页首标题使用一级 heading

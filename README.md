@@ -25,4 +25,4 @@
 
 _以上剧情纯属虚构。_ 
 
-_Ingress 为 Niantic, Inc. 注册商标，与本网站无关_
+_Ingress 为 Niantic, Inc. 注册商标，与本网站无关。_

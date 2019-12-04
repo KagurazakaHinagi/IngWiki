@@ -48,6 +48,12 @@
                 function (hook, vm) {
                     hook.init(function () {
                         // Called when the script starts running, only trigger once, no arguments,
+                        if (document.cookie.replace(/(?:(?:^|.*;\s*)themeMode\s*\=\s*([^;]*).*$)|^.*$/,
+                                "$1") == "dark") {
+                            darkModeOn();
+                        } else {
+                            darkModeOff();
+                        }
                     });
 
                     hook.beforeEach(function (content) {
@@ -70,18 +76,15 @@
 
                     hook.mounted(function () {
                         // Called after initial completion. Only trigger once, no arguments.
-                        if (document.cookie.replace(/(?:(?:^|.*;\s*)themeMode\s*\=\s*([^;]*).*$)|^.*$/,
-                                "$1") == "dark") {
-                            darkModeOn();
-                            var themeModeEmoji = document.getElementById("themeModeEmoji");
-                            themeModeEmoji.innerHTML = "☀️";
-                        } else {
-                            darkModeOff();
-                        }
                     });
 
                     hook.ready(function () {
                         // Called after initial completion, no arguments.
+                        if (document.cookie.replace(/(?:(?:^|.*;\s*)themeMode\s*\=\s*([^;]*).*$)|^.*$/,
+                                "$1") == "dark") {
+                            var themeModeEmoji = document.getElementById("themeModeEmoji");
+                            themeModeEmoji.innerHTML = "☀️";
+                        }
                     });
                 }
             ]
@@ -119,7 +122,7 @@
         function switchThemeMode(e) {
             if (document.cookie.replace(/(?:(?:^|.*;\s*)themeMode\s*\=\s*([^;]*).*$)|^.*$/, "$1") == "dark") {
                 document.cookie = "themeMode=vue";
-                e.innerHTML = "🌙";
+                e.innerHTML = "🌙<sup>BETA</sup>";
                 darkModeOff();
             } else {
                 document.cookie = "themeMode=dark";

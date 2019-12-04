@@ -49,7 +49,7 @@
                     hook.init(function () {
                         // Called when the script starts running, only trigger once, no arguments,
                         if (document.cookie.replace(/(?:(?:^|.*;\s*)themeMode\s*\=\s*([^;]*).*$)|^.*$/,
-                                "$1") == "dark") {
+                                "$1") === "dark") {
                             darkModeOn();
                         } else {
                             darkModeOff();
@@ -72,6 +72,11 @@
 
                     hook.doneEach(function () {
                         // Invoked each time after the data is fully loaded, no arguments,
+                        if (document.cookie.replace(/(?:(?:^|.*;\s*)themeMode\s*\=\s*([^;]*).*$)|^.*$/,
+                                "$1") === "dark") {
+                            var themeModeEmoji = document.getElementById("themeModeEmoji");
+                            themeModeEmoji.innerHTML = "☀️";
+                        }
                     });
 
                     hook.mounted(function () {
@@ -80,11 +85,6 @@
 
                     hook.ready(function () {
                         // Called after initial completion, no arguments.
-                        if (document.cookie.replace(/(?:(?:^|.*;\s*)themeMode\s*\=\s*([^;]*).*$)|^.*$/,
-                                "$1") == "dark") {
-                            var themeModeEmoji = document.getElementById("themeModeEmoji");
-                            themeModeEmoji.innerHTML = "☀️";
-                        }
                     });
                 }
             ]
@@ -120,7 +120,7 @@
         }
 
         function switchThemeMode(e) {
-            if (document.cookie.replace(/(?:(?:^|.*;\s*)themeMode\s*\=\s*([^;]*).*$)|^.*$/, "$1") == "dark") {
+            if (document.cookie.replace(/(?:(?:^|.*;\s*)themeMode\s*\=\s*([^;]*).*$)|^.*$/, "$1") === "dark") {
                 document.cookie = "themeMode=vue";
                 e.innerHTML = "🌙<sup>BETA</sup>";
                 darkModeOff();

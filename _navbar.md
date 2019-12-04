@@ -1,3 +1,4 @@
 - [贡献](contribute.md)
 - [GitHub](https://github.com/KurisupiDango/IngWiki)
 - [Ingress 官网](https://ingress.com)
+- <a href="javascript:void(0);" id="themeModeEmoji" onclick="switchThemeMode(this)">🌙</a>

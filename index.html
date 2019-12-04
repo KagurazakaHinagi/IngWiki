@@ -8,8 +8,10 @@
     <meta name="description" content="An unofficial Ingress wiki.">
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
-    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css" title="vue">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify/lib/themes/dark.css" title="dark">
+    <link rel="stylesheet" href="custom_vue.css" title="customVue">
+    <link rel="stylesheet" href="custom_dark.css" title="customDark">
 </head>
 
 <body>
@@ -43,6 +45,45 @@
                     undefined,
                     '📝 Edit on GitHub'
                 ),
+                function (hook, vm) {
+                    hook.init(function () {
+                        // Called when the script starts running, only trigger once, no arguments,
+                    });
+
+                    hook.beforeEach(function (content) {
+                        // Invoked each time before parsing the Markdown file.
+                        // ...
+                        return content;
+                    });
+
+                    hook.afterEach(function (html, next) {
+                        // Invoked each time after the Markdown file is parsed.
+                        // beforeEach and afterEach support asynchronous。
+                        // ...
+                        // call `next(html)` when task is done.
+                        next(html);
+                    });
+
+                    hook.doneEach(function () {
+                        // Invoked each time after the data is fully loaded, no arguments,
+                    });
+
+                    hook.mounted(function () {
+                        // Called after initial completion. Only trigger once, no arguments.
+                        if (document.cookie.replace(/(?:(?:^|.*;\s*)themeMode\s*\=\s*([^;]*).*$)|^.*$/,
+                                "$1") == "dark") {
+                            darkModeOn();
+                            var themeModeEmoji = document.getElementById("themeModeEmoji");
+                            themeModeEmoji.innerHTML = "☀️";
+                        } else {
+                            darkModeOff();
+                        }
+                    });
+
+                    hook.ready(function () {
+                        // Called after initial completion, no arguments.
+                    });
+                }
             ]
         }
     </script>
@@ -50,6 +91,42 @@
         if (typeof navigator.serviceWorker !== 'undefined') {
             navigator.serviceWorker.register('sw.js')
         }
+
+        var themes = Docsify.dom.findAll('[rel="stylesheet"]');
+
+        function darkModeOn() {
+            themes.forEach(function (theme) {
+                if (theme.title === "customDark" || theme.title === "dark") {
+                    theme.disabled = "true";
+                    theme.removeAttribute("disabled");
+                } else {
+                    theme.disabled = "true";
+                }
+            });
+        }
+
+        function darkModeOff() {
+            themes.forEach(function (theme) {
+                if (theme.title === "customVue" || theme.title === "vue") {
+                    theme.disabled = "true";
+                    theme.removeAttribute("disabled");
+                } else {
+                    theme.disabled = "true";
+                }
+            });
+        }
+
+        function switchThemeMode(e) {
+            if (document.cookie.replace(/(?:(?:^|.*;\s*)themeMode\s*\=\s*([^;]*).*$)|^.*$/, "$1") == "dark") {
+                document.cookie = "themeMode=vue";
+                e.innerHTML = "🌙";
+                darkModeOff();
+            } else {
+                document.cookie = "themeMode=dark";
+                e.innerHTML = "☀️";
+                darkModeOn();
+            }
+        };
     </script>
     <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>

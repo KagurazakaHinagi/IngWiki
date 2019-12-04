@@ -72,11 +72,21 @@
 
                     hook.doneEach(function () {
                         // Invoked each time after the data is fully loaded, no arguments,
-                        if (document.cookie.replace(/(?:(?:^|.*;\s*)themeMode\s*\=\s*([^;]*).*$)|^.*$/,
-                                "$1") === "dark") {
-                            var themeModeEmoji = document.getElementById("themeModeEmoji");
-                            themeModeEmoji.innerHTML = "☀️";
-                        }
+                        const sleep = milliseconds => {
+                            return new Promise(resolve => setTimeout(resolve, milliseconds));
+                        };
+
+                        sleep(1).then(() => {
+                            if (document.cookie.replace(
+                                    /(?:(?:^|.*;\s*)themeMode\s*\=\s*([^;]*).*$)|^.*$/,
+                                    "$1") === "dark") {
+                                var themeModeEmoji = document.getElementById("themeModeEmoji");
+                                if (typeof themeModeEmoji !== 'undefined' && themeModeEmoji !==
+                                    null) {
+                                    themeModeEmoji.innerHTML = "☀️";
+                                }
+                            }
+                        });
                     });
 
                     hook.mounted(function () {

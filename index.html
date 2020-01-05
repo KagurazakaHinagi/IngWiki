@@ -10,8 +10,8 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css" title="vue">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify/lib/themes/dark.css" title="dark">
-    <link rel="stylesheet" href="custom_vue.css" title="customVue">
-    <link rel="stylesheet" href="custom_dark.css" title="customDark">
+    <link rel="stylesheet" href="assets/css/custom_vue.css" title="customVue">
+    <link rel="stylesheet" href="assets/css/custom_dark.css" title="customDark">
 </head>
 
 <body>
@@ -72,6 +72,8 @@
 
                     hook.doneEach(function () {
                         // Invoked each time after the data is fully loaded, no arguments,
+
+                        // delay
                         const sleep = milliseconds => {
                             return new Promise(resolve => setTimeout(resolve, milliseconds));
                         };
@@ -101,10 +103,12 @@
         }
     </script>
     <script>
+        // register PWA
         if (typeof navigator.serviceWorker !== 'undefined') {
             navigator.serviceWorker.register('sw.js')
         }
 
+        // dark mode functions
         var themes = Docsify.dom.findAll('[rel="stylesheet"]');
 
         function darkModeOn() {

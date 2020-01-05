@@ -43,6 +43,7 @@ IngWiki 由 Docsify 搭建，并托管于 Github Pages。
 - `contribute.md` - 贡献人员名单及贡献方式（本页面）
 - `index.html` - Docsify 各项参数，一般情况下请勿更改
 - `README.md` - 网站主页内容
+- `sw.js` - 离线模式 "PWA" 配置脚本
 - 二级目录说明
   - `assets` - 静态资源目录，包括图片，请上传至该目录使用
   - `starter` - "入坑" 子目录
@@ -55,7 +56,7 @@ IngWiki 由 Docsify 搭建，并托管于 Github Pages。
 
 ### 编写规范
 
-1.**所有文本都必须使用 UTF-8 编码**，推荐使用 [VS Code](https://code.visualstudio.com/) 编辑器
+1. **所有文本都必须使用 UTF-8 编码**，推荐使用 [VS Code](https://code.visualstudio.com/) 编辑器
 2. Wiki 内的链接应使用相对路径，并注意检查引用路径是否正确
 3. 文本排版保持简洁、美观。中文和西文、数字之间要有空格
 4. 编辑或新建页面时，应保持文件结构正确、整洁

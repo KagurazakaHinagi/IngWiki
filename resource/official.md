@@ -12,11 +12,12 @@
 - [Niantic Wayfarer（原 Ingress OPR）](https://wayfarer.nianticlabs.com/)
 
 ### 社交平台
-- [Twitter](https://twitter.com/ingress)
-- [Youtube](https://youtube.com/ingress)
-- [Facebook](https://facebook.com/ingress)
-- [Instagram](https://instagram.com/ingress)
-- [Telegram 中文频道](https://t.me/ingresschinese)
+- <i class="mdi mdi-twitter"></i> [Twitter](https://twitter.com/ingress)
+- <i class="mdi mdi-youtube"></i> [Youtube](https://youtube.com/ingress)
+- <i class="mdi mdi-facebook"></i> [Facebook](https://facebook.com/ingress)
+- <i class="mdi mdi-instagram"></i> [Instagram](https://instagram.com/ingress)
+- <i class="mdi mdi-telegram"></i> [Telegram](https://t.me/nianticofficial)
+- <i class="mdi mdi-telegram"></i> [Telegram 中文](https://t.me/ingresschinese)
 
 ### Ingress 动画
 

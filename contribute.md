@@ -2,7 +2,7 @@
 
 ##### 贡献者
 
-?> ℹ️ 字典序排列，不分先后
+?> <i class="mdi mdi-information"></i> 字典序排列，不分先后
 
 - [DWCarrot](https://github.com/DWCarrot)
 - [hycuihz](https://github.com/hycuihz)
@@ -60,7 +60,7 @@ IngWiki 由 Docsify 搭建，并托管于 Github Pages。
 2. Wiki 内的链接应使用相对路径，并注意检查引用路径是否正确
 3. 文本排版保持简洁、美观。中文和西文、数字之间要有空格
 4. 编辑或新建页面时，应保持文件结构正确、整洁
-5. 由于托管在 Github Pages 的特殊性，请不要上传大文件。图片请 [压缩](https://squoosh.app/) 为 WEBP 后再上传，其他大文件请使用稳定可靠的文件托管外链服务
+5. 由于托管在 Github Pages 的特殊性，请不要上传大文件。图片请 [压缩](https://squoosh.app/) 为 WebP 后再上传，其他大文件请使用稳定可靠的文件托管外链服务
 6. heading 风格方案
 
    - 页首标题使用一级 heading

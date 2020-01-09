@@ -5,10 +5,10 @@
 
 ### 聊天/社交
 
-- [Telegram](https://telegram.org)：日常交流用 IM，另有各地社群信息发布
+- <i class="mdi mdi-telegram"></i> [Telegram](https://telegram.org)：日常交流用 IM，另有各地社群信息发布
 - [Zello](https://zello.com)：实时对讲工具，搞大新闻时使用
 - [Glympse](https://glympse.com)：实时位置分享工具，搞大新闻时使用
-- [Instagram](https://instagram.com)：部分线下活动（如 Ingress FS、GORUCK OCF）的任务提交平台
+- <i class="mdi mdi-instagram"></i> [Instagram](https://instagram.com)：部分线下活动（如 Ingress FS、GORUCK OCF）的任务提交平台
 
 ### 环境调试
 
@@ -24,7 +24,7 @@
 ### Mission 辅助
 
 - [Mission Banner Cropper](https://giacintogarcea.com/ingress/tools/missionset/)：组图任务图片切割工具
-- [Trello-Ingress Medal Arts](https://trello.com/b/LvwOjrYP/ingress-medal-arts)：Ingress 中国任务分享平台
+- <i class="mdi mdi-trello"></i> [Trello-Ingress Medal Arts](https://trello.com/b/LvwOjrYP/ingress-medal-arts)：Ingress 中国任务分享平台
 - [Ingress Mosaik](https://ingressmosaik.com/cn)：Ingress 全球组图任务分享平台
 
 ### 开饭辅助
